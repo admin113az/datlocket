@@ -1,4 +1,6 @@
-// By datlocket 🤭
+// Locket_Gold_Full.js
+// Fake Gold cho mọi request tới api.revenuecat.com
+// Dành cho Locket 2.9.0+
 
 const goldData = {
   request_date_ms: Date.now(),
@@ -12,7 +14,7 @@ const goldData = {
       }
     },
     original_purchase_date: "2024-01-01T00:00:00Z",
-    original_app_user_id: "$RCAnonymousID:datlocket",
+    original_app_user_id: "$RCAnonymousID:thayduong",
     last_seen: new Date().toISOString(),
     management_url: null,
     subscriptions: {
